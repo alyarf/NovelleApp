@@ -143,8 +143,8 @@ const facials = [
 
       {/* PACKAGES */}
       <div style={{ background: "#8b4a5c", padding: "4rem" }}>
-        <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "2.2rem", fontWeight: 300, color: "#fff", marginBottom: "0.5rem" }}>Novelle Packages</p>
-        <p style={{ fontSize: "0.9rem", color: "rgba(255,255,255,0.6)", marginBottom: "3rem" }}>Curated combinations for the ultimate spa experience</p>
+        <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "2.2rem", fontWeight: 300, color: "#fff", marginBottom: "0.5rem" }}>Pachete Novelle</p>
+        <p style={{ fontSize: "0.9rem", color: "rgba(255,255,255,0.6)", marginBottom: "3rem" }}>Pentru o experiență premium</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
           {packages.map((pkg) => (
             <div key={pkg.name} style={{ background: pkg.featured ? "rgba(255,255,255,0.15)" : "rgba(255,255,255,0.08)", border: pkg.featured ? "1px solid rgba(255,255,255,0.4)" : "1px solid rgba(255,255,255,0.15)", padding: "2rem" }}>
